@@ -4,7 +4,7 @@ import random
 import time
 from threading import Thread
 
-vk = vk_api.VkApi(token="API TOKEN")
+vk = vk_api.VkApi(token="4cee16e3d66ed42b729d645beb4da262bd9f25e8213b8d52390a5df314b9e068a0e1307b7ff26381ea451")
 
 vk._auth_token()
 
@@ -14,7 +14,7 @@ DEBUG = True  # Enable or disable printing debug information to terminal
 MESSAGES_DELAY = 0.05  # Time to wait after spam message sent
 START_RAID_AFTER_CERTAIN_MESSAGE = False  # Start raid only after sending a message like "@bot_nick start" to chat
 
-longpoll = VkBotLongPoll(vk, ID группы)
+longpoll = VkBotLongPoll(vk, id_902025)
 
 
 def raid(chat_id):
